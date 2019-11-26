@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RegistrarAlumnos</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string name="nombre">Nombre(s)</string>
+    <string name="apellido">Apellidos</string>
+    <string name="cuenta">No. de cuenta</string>
+    <string name="sexo">Sexo</string>
+    <string name="registrar">Registrar</string>
+    <string name="ver">Ver registro</string>
+    <string name="confirmed">Usuario registrado</string>
+    <string name="error1">El campo no puede estar vacío</string>
+    <string name="errorAccount">Verifica que el número de cuenta sea correcto</string>
+    <string name="errorSexo">Debes seleccionar un género</string>
+</resources>
