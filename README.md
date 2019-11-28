@@ -25,3 +25,5 @@ Elementos adicionales:
 - Las validaciones hechas son que el campo de Nombre y Apellido no pueden estar vacíos, si lo están, el usuario simplemente no puede registrar al alumno, aún si falta uno solo de estos datos. Lo mismo sucede con el número de cuenta, el cual tiene una extensión mínima y máxima de 9 elementos; si el usuario ingresa menos, de igual forma no lo dejará avanzar.
 - Se establece el género inicial en masculino para evitar que el usuario no seleccione alguno de los dos.
 - No importa la extensión de los nombres y apellidos, cada una de las Card son independientes en su tamaño, por lo que exise un tamaño estándar que es lo que mide el ícono de la foto de perfil, más un márgen de 30, y a partir de ahí se puede expandir lo que sea necesario.
+- El ID de cada elemento se declara en el programa, en base a su llegada a la lista. Así, el primer elemento tendrá el ID 1, el segundo el ID 2 y así sucesivamente. Para verlo se puede presionar la celda correspondiente a cada uno en la lista.
+- Traducido al inglés y español.
