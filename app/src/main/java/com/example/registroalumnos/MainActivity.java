@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     RadioGroup rgGenero;
     RadioButton rbSexo;
     public String sexo="Masculino";
+    int id;
 
     public static List<Alumno> alumnos=new ArrayList<>();
 
@@ -48,13 +49,14 @@ public class MainActivity extends AppCompatActivity {
                 validateApellido();
                 validateAccount();
                 if (validateName() && validateApellido() && validateAccount()) {
+                    id++;
                     String nombre = etName.getText().toString();
                     String apellidos = etApellidos.getText().toString();
                     String cuenta = etCuenta.getText().toString();
                     if (sexo.equals("Masculino")) {
-                        alumnos.add(new Alumno(nombre + " " + apellidos, cuenta, R.drawable.hombre));
+                        alumnos.add(new Alumno(nombre + " " + apellidos, cuenta, R.drawable.hombre,id));
                     } else {
-                        alumnos.add(new Alumno(nombre + " " + apellidos, cuenta, R.drawable.mujer));
+                        alumnos.add(new Alumno(nombre + " " + apellidos, cuenta, R.drawable.mujer,id));
                     }
                     Toast.makeText(MainActivity.this, getResources().getString(R.string.confirmed), Toast.LENGTH_LONG).show();
                 }

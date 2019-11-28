@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Register Students</string>
+    <string name="masculino">Male</string>
+    <string name="femenino">Female</string>
+    <string name="nombre">Name</string>
+    <string name="apellido">Last Name</string>
+    <string name="cuenta">Account</string>
+    <string name="sexo">Gender</string>
+    <string name="registrar">Register</string>
+    <string name="ver">See All</string>
+    <string name="confirmed">User registered</string>
+    <string name="error1">The field can not be empty</string>
+    <string name="errorAccount">Verify your account number</string>
+    <string name="errorSexo">You must select a gender</string>
+</resources>
